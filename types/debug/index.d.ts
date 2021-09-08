@@ -1,4 +1,4 @@
 
 declare module 'debug' {
-    export function createDebug(a:string) : unknown;
+    export default  function createDebug(a:string) : (a:string)=>void;
 }
