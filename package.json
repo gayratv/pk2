@@ -1,0 +1,21 @@
+{
+  "name": "pk2",
+  "version": "1.0.0",
+  "description": "test package for type definition",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node cli.ts"
+  },
+  "keywords": [],
+  "author": "Ulibka68",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.2",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
